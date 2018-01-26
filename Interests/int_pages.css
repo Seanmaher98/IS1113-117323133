@@ -1,0 +1,14 @@
+#section1{
+ background: red;
+}
+#section2{
+ background: blue;
+}
+#section3{
+ background: green;
+}
+
+.section{
+    text-align: center;
+    color: white;
+}
