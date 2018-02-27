@@ -4,13 +4,12 @@
     color: white;
     font-size: x-large;
     
-    
 }
 
 html, body {
     height:100%;
     width:100%;
-    background: url("http://architectureimg.com/wp-content/uploads/2017/05/skyscrapers-windy-city-chicago-skyline-skyscrapers-hdr-wallpaper-1366x768.jpg") no-repeat center;
+    background: url("https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png") no-repeat center;
     background-size:cover;
     
 }
@@ -44,19 +43,3 @@ ul li a:hover{
     background:white;
     padding:.5%;
 }
-
-.box{
-    position:absolute;
-    top:15%;
-    
-}
-
-
-.project{
-    position: absolute;
-    top:40%;
-    text-align:center;
-    color: white;
-}
-
-btn

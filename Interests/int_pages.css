@@ -1,14 +1,33 @@
 #section1{
- background: purple;
+ background-image:url(https://fc06.deviantart.net/fs70/i/2012/112/9/d/london_by_magiamal-d4x8yfg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+ font-style: oblique
 }
 #section2{
- background: blue;
+ background-image: url(https://cdn.getyourguide.com/img/location_img-59-1224772867-148.jpg);
+ font-style: oblique;
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
 }
 #section3{
- background: navy;
+ background-image: url(https://marysbar.ie/wp-content/uploads/2016/11/Visit-Dublin-500x353.jpg);
+ font-style: oblique;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 .section{
     text-align: center;
     color: white;
+    font-style: oblique
+}
+
+.paragraphs{
+    position:absolute;
+    font-style: normal;
+    font-size: small;
+    font-weight: bolder
 }

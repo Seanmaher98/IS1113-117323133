@@ -15,7 +15,7 @@
         
             <br />
             
-            <form method = "POST" action = "Ebus3.php">
+            <form method = "POST" action = "eBus3.php">
                 
                 <label for="user_pin">
                      PIN 
