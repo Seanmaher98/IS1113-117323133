@@ -25,14 +25,4 @@ ul li a:hover{
     padding:1%;
 }
 
-.box{
-    position:absolute;
-    top:30%;
-}
 
-.paragraphs{
-    position:absolute;
-    text-align: justify;
-    font-style: normal;
-    margin-bottom: 50px;
-}
