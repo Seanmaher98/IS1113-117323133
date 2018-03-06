@@ -37,15 +37,45 @@
     
 }
 
+.text-block2 {
+    background-image: url("http://www.stadiumguide.com/wp-content/gallery/oldtrafford/oldtrafford8.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
 p {
  color: white;
  font-size:15px;
  font-weight: bold
 
 }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
  
  
  
- 
+.design{
+ background-image: url(http://lonestarfinancing.com/wp-content/uploads/2017/06/sky.jpg);
+ background-repeat: no-repeat;
+ font-family: "Verdana", serif;
+ color: white;
+ text-align:center;
+}
+
+.pair{
+    bottom: 40px;
+    right: 30px;
+    background-color: transparent;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left
+    
+}
  
 }
