@@ -38,10 +38,10 @@
 }
 
 .text-block2 {
-    background-image: url("http://www.stadiumguide.com/wp-content/gallery/oldtrafford/oldtrafford8.jpg");
     background-repeat: no-repeat;
     color: white;
     text-align: center;
+    position:absolute;
 }
 
 p {
@@ -78,4 +78,26 @@ img {
     
 }
  
+.btn{
+    position:absolute;
+    top:10%;
+    left:90%;
+    border-radius: 12px;
+    background-color: #008CBA;
+    text-decoration: none;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+}
+
+.btn2{
+    position:absolute;
+    top:20%;
+    left:90%;
+    border-radius: 12px;
+    background-color: #008CBA;
+    text-decoration: none;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
 }

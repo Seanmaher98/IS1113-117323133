@@ -1,59 +1,88 @@
+<?php
+//Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Products</title>
         
-            <h4>Select Product</h4>
+            <h2>Select Product</h2>
             
             <!--jquery-->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
             <script type= "text/javascript" src="cost_calc.js"></script>
-    </head> 
+    
+    <style>
+        body{
+            background-color:#8080ff;
+            color:white;
+            text-align:center;
+            font-family:"verdana", sans-serif;
+            font-size:14px;
+            
+        }
+        
+    </style>
+    
+    </head>
         <body>
             <br/>
             
             <form method= "Post" action= "eBus2.php">
             
             <label for="salesforce">
-                <input type="radio" id="salesforce" name="product" checked onClick= "disabledbtnproceed"/>
-                salesforce @$100
+                <input type="radio" id="salesforce" name="product" checked onClick= "disabledbtnProceed"/>
+                &nbsp;Salesforce&nbsp;&nbsp;&nbsp; $100
             </label>
             
             <br/>
             
              <label for="Amazon Web Services">
-                <input type="radio" id="aws" name="product" onClick= "disabledbtnproceed"/>
-                aws @$300
+                <input type="radio" id="aws" name="product" onClick= "disabledbtnProceed"/>
+                &nbsp;Amazon Web Services&nbsp;&nbsp;&nbsp; $300
             </label>
             
             <br/>
             
             <label for="Cloud9">
-                <input type="radio" id="cloud9" name="product" checked onClick= "disabledbtnproceed"/>
-                cloud9 @$200
+                <input type="radio" id="cloud9" name="product" checked onClick= "disabledbtnProceed"/>
+                &nbsp;Cloud9&nbsp;&nbsp;&nbsp; $200
             </label>
             
             <br/>
             
             <label for="Gmail">
-                <input type="radio" id="gmail" name="product" checked onClick= "disabledbtnproceed"/>
-                Gmail @$400
+                <input type="radio" id="gmail" name="product" checked onClick= "disabledbtnProceed"/>
+                &nbsp;Gmail&nbsp;&nbsp;&nbsp; $400
             </label>
+            <br>
+            <br>
             
-            <label for="Subtotal">
-                Sub Total
-                <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
-            </label>
-                
+            
+            
+            <section class="calculations">
+                      <label for="subtotal">&nbsp;&nbsp;Sub Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     
+                      <input type ="text" id="subtotal" name ="subtotal" value="0.00" readonly>
+                         <br>
+                         <br>
+                     
+                     <label for="discounttotal">&nbsp;Discount @ 5%:&nbsp;&nbsp;&nbsp;<input type ="text" id="discounttotal" name ="discounttotal" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;(-Discount) </label>&nbsp;&nbsp;
+                     
+                          <br>
+                          <br>
+                     <label for="vattotal" >&nbsp;&nbsp;Vat @ 10%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="vattotal" name ="vattotal" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+Vat) </label>
+                         <br>
+                         <br>
+                     <label for="total" >&nbsp;&nbsp;Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     
+                      <input type ="text" id="total" name ="total" value="0.00" readonly>
+                 </section>
+            
             <br/>
             
-            <label for="total">
-                Total
-                <input type="text" id="total" name="subtotal" value="0.00" readonly/>
-            </label>
-            
-            <br/>
-            
-            <button type="submit" id="btnProceed">add to shopping cart</button>
+            <button type="submit" id="btnProceed">Add to Shopping Cart</button>
             
             
             </form>
