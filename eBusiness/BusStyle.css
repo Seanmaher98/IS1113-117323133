@@ -68,3 +68,15 @@ h4{
     left:25%;
     
 }
+
+.btn{
+    position:absolute;
+    top:10%;
+    left:90%;
+    border-radius: 12px;
+    background-color: #008CBA;
+    text-decoration: none;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+}

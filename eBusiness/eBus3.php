@@ -35,14 +35,13 @@ session_start();
         <h2>Your order is complete!</h2>
         <p>Thank you for ordering from In the Clouds online store.<br>
         Please see below conformation of your order.</p>
-          
+        
         
         
         <?php
-        echo "Name: " . $_SESSION["Name"] . "</br>";
-        echo "A confirmation email has been sent to " . $_SESSION["email"] . "</br>";
-        echo "The total cost of this transaction is: " . $_SESSION["total"] . "</br>"
+        echo "The total cost of this transaction is: " . $_SESSION["total"];
         ?>
-       
+        
+    <a href="../homepage.html" class="btn btn-success">Home</a>  
     </body>
 </html>

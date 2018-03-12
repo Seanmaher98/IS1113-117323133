@@ -70,6 +70,7 @@ session_start();
         
         <?php
             $_SESSION["total"] = $_POST["total"];
+            
         ?>
         
         

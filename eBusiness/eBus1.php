@@ -29,7 +29,7 @@ session_start();
         <body>
             <br/>
             
-            <form method= "Post" action= "eBus2.php">
+            <form method= "POST" action= "eBus2.php">
             
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick= "disabledbtnProceed"/>
@@ -38,21 +38,21 @@ session_start();
             
             <br/>
             
-             <label for="Amazon Web Services">
+             <label for="aws">
                 <input type="radio" id="aws" name="product" onClick= "disabledbtnProceed"/>
                 &nbsp;Amazon Web Services&nbsp;&nbsp;&nbsp; $300
             </label>
             
             <br/>
             
-            <label for="Cloud9">
+            <label for="cloud9">
                 <input type="radio" id="cloud9" name="product" checked onClick= "disabledbtnProceed"/>
                 &nbsp;Cloud9&nbsp;&nbsp;&nbsp; $200
             </label>
             
             <br/>
             
-            <label for="Gmail">
+            <label for="gmail">
                 <input type="radio" id="gmail" name="product" checked onClick= "disabledbtnProceed"/>
                 &nbsp;Gmail&nbsp;&nbsp;&nbsp; $400
             </label>
@@ -68,14 +68,14 @@ session_start();
                          <br>
                          <br>
                      
-                     <label for="discounttotal">&nbsp;Discount @ 5%:&nbsp;&nbsp;&nbsp;<input type ="text" id="discounttotal" name ="discounttotal" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;(-Discount) </label>&nbsp;&nbsp;
+                     <label for="discounttotal">&nbsp;Discount @ 5%:&nbsp;&nbsp;&nbsp;<input type ="text" id="discounttotal" name ="discounttotal" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp; </label>&nbsp;&nbsp;
                      
                           <br>
                           <br>
-                     <label for="vattotal" >&nbsp;&nbsp;Vat @ 10%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="vattotal" name ="vattotal" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+Vat) </label>
+                     <label for="vat" >&nbsp;&nbsp;Vat @ 10%:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="text" id="vat" name ="vat" value="0.00" readonly><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
                          <br>
                          <br>
-                     <label for="total" >&nbsp;&nbsp;Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <label for="total" >&nbsp;&nbsp;Total: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                      
                       <input type ="text" id="total" name ="total" value="0.00" readonly>
                  </section>
